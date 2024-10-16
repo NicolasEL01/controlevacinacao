@@ -69,6 +69,25 @@
 			<version>${disruptor.version}</version>
 		</dependency>
 
+		<dependency>
+			<groupId>io.github.wimdeblauwe</groupId>
+			<artifactId>htmx-spring-boot</artifactId>
+			<version>3.5.1</version>
+		</dependency>
+
+		<!-- Adiciona as dependências de Bean Validation -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
+		<!-- Adiciona a dependência do Apache Commons Validator -->
+		<!-- São 190kb -->
+		<dependency>
+			<groupId>commons-validator</groupId>
+			<artifactId>commons-validator</artifactId>
+			<version>1.9.0</version>
+		</dependency>
+
 		<!-- Adiciona as dependências de AOP -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
